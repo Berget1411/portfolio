@@ -1,3 +1,6 @@
-import Home from "@/components";
+import { useTranslations } from "next-intl";
 
-export default Home;
+export default function Home() {
+  const t = useTranslations("Home");
+  return <div>{t("title")}</div>;
+}

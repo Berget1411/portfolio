@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "tech-stack": "Tech-stack",
+    "contact": "Contact"
+  },
+  "Home": {
+    "title": "Home"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "sv": "Swedish"
+  }
+}
