@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* theme */
+@layer base {
+  :root {
+    --background: #ffffff;
+    --text-color: #171717;
+  }
+
+  .dark {
+    --background: #0a0a0a;
+    --text-color: #ededed;
+  }
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+}
+
+@layer base {
+  p {
+    @apply my-4 text-neutral-800 dark:text-neutral-200;
+  }
+
+  h1 {
+    @apply text-4xl font-medium tracking-tight mt-6 mb-2;
+  }
+
+  h2 {
+    @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  }
+
+  h3 {
+    @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  }
+
+  h4 {
+    @apply text-lg font-medium tracking-tight mt-6 mb-2;
+  }
+}
