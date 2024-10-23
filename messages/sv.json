@@ -7,12 +7,17 @@
     "projects": "Projekt",
     "contact": "Kontakt"
   },
-  "Home": {
+  "home": {
     "title": "Start"
   },
-  "LocaleSwitcher": {
+  "localeSwitcher": {
     "label": "Språk",
     "en": "Engelska",
     "sv": "Svenska"
+  },
+  "profile": {
+    "title": "Ludvig Bergtröm",
+    "desc1": "Civilingenjör, industriell ekonomi",
+    "desc2": "Software Developer"
   }
 }

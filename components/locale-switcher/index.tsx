@@ -2,7 +2,7 @@ import LocaleSwitcherSelect from "./LocaleSwitcherSelect";
 import { useLocale, useTranslations } from "next-intl";
 
 export function LocaleSwitcher() {
-  const t = useTranslations("LocaleSwitcher");
+  const t = useTranslations("localeSwitcher");
   const locale = useLocale();
 
   const items = [

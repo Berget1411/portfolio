@@ -7,12 +7,17 @@
     "projects": "Projects",
     "contact": "Contact"
   },
-  "Home": {
+  "home": {
     "title": "Home"
   },
-  "LocaleSwitcher": {
+  "localeSwitcher": {
     "label": "Language",
     "en": "English",
     "sv": "Swedish"
+  },
+  "profile": {
+    "title": "Ludvig Bergtröm",
+    "desc1": "M.Sc. Industrial Engineering and Management",
+    "desc2": "Software Developer"
   }
 }
