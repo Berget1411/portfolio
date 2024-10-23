@@ -1,9 +1,10 @@
 {
   "navbar": {
     "home": "Start",
-    "about": "Om mig",
+    "about": "Introduktion",
+    "experience": "Erfarenhet",
+    "education": "Utbildning",
     "projects": "Projekt",
-    "tech-stack": "Tech-stack",
     "contact": "Kontakt"
   },
   "Home": {

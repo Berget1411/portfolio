@@ -3,8 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
-
+import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
+import { Separator } from "@/components/ui/separator";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -37,8 +38,13 @@ export default async function LocaleLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
+          <Providers>
+            <Navbar />
+
+            <main className="mx-auto mt-8 max-w-[800px] px-6 pt-20">
+              {children}
+            </main>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

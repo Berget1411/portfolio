@@ -12,11 +12,6 @@
   margin: 0;
 }
 
-body {
-  color: var(--text-color);
-  line-height: 1.5;
-  min-height: 100vh;
-}
 img,
 picture,
 video,
@@ -116,19 +111,19 @@ body {
   }
 
   h1 {
-    @apply text-4xl font-medium tracking-tight mt-6 mb-2;
+    @apply mb-2 mt-6 text-4xl font-medium tracking-tight;
   }
 
   h2 {
-    @apply text-xl font-medium tracking-tight mt-6 mb-2;
+    @apply mb-2 mt-6 text-xl font-medium tracking-tight;
   }
 
   h3 {
-    @apply text-xl font-medium tracking-tight mt-6 mb-2;
+    @apply mb-2 mt-6 text-xl font-medium tracking-tight;
   }
 
   h4 {
-    @apply text-lg font-medium tracking-tight mt-6 mb-2;
+    @apply mb-2 mt-6 text-lg font-medium tracking-tight;
   }
 }
 
