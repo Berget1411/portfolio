@@ -23,5 +23,22 @@
   "about": {
     "title": "Introduktion",
     "body": "Hej, jag är Ludvig. Jag är en självlärd programmerare som går första året på civilingenjörprogrammet i industriell ekonomi vid KTH. Vid sidan av mina studier arbetar jag som webbutvecklare på THS Business, vars mål är att hjälpa KTH-studenter att knyta kontakter med framtida arbetsgivare. För närvarande fördjupar jag mig inom fullstack-utveckling och använder AI-verktyg som Cursor och ChatGPT."
+  },
+  "experience": {
+    "title": "Erfarenhet",
+    "ths": {
+      "title": "THS Business",
+      "role": "Frontend Lead & Fullstack Developer",
+      "date": "Okt 2024 - Nu",
+      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    },
+    "atlas-copco": {
+      "title": "Atlas Copco",
+      "role": "Intern",
+      "date": "Jul 2024 - Aug 2024",
+      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    }
   }
 }

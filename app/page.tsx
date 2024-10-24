@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Profile from "@/components/profile";
 import About from "@/components/about";
+import Experience from "@/components/experience";
 import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
@@ -8,8 +9,9 @@ export default function Home() {
   return (
     <>
       <Profile />
-      <Separator className="my-6" />
+      <Separator className="mb-12 mt-6" />
       <About />
+      <Experience />
     </>
   );
 }
