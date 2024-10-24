@@ -38,13 +38,14 @@ export default function Profile() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="group relative h-[160px] w-[160px] flex-shrink-0">
+        <div className="animate-tilt absolute -inset-0.5 rounded-full bg-gradient-to-r from-orange-600 to-rose-600 opacity-75 blur-lg transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
         <Image
           src={profile}
           alt="Ludvig Bergtröm"
           width={160}
           height={160}
-          className="rounded-full"
+          className="relative z-10 rounded-full"
         />
       </div>
     </section>
