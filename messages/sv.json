@@ -19,5 +19,9 @@
     "title": "Ludvig Bergtröm",
     "desc1": "Civilingenjör, industriell ekonomi",
     "desc2": "Software Developer"
+  },
+  "about": {
+    "title": "Introduktion",
+    "body": "Hej, jag är Ludvig. Jag är en självlärd programmerare som går första året på civilingenjörprogrammet i industriell ekonomi vid KTH. Vid sidan av mina studier arbetar jag som webbutvecklare på THS Business, vars mål är att hjälpa KTH-studenter att knyta kontakter med framtida arbetsgivare. För närvarande fördjupar jag mig inom fullstack-utveckling och använder AI-verktyg som Cursor och ChatGPT."
   }
 }
