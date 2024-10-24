@@ -4,8 +4,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import scrollToSection from "@/utils/scrollToSection";
 import { RemoveScroll } from "react-remove-scroll";
-import { Button } from "@/components/ui/button";
-import { useTranslations } from "next-intl";
 import useActiveSection from "@/hooks/useActiveSection";
 import { twMerge } from "tailwind-merge";
 export default function Menu({
