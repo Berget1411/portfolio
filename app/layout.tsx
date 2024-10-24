@@ -7,7 +7,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
-import { baseUrl } from "@/app/sitemap";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,8 +19,10 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const BASE_URL = "https://ludvigbergstrom.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(BASE_URL),
   title: {
     default: "Ludvig Bergström",
     template: "%s | Ludvig Bergström",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ludvig Bergström",
     description: "This is my portfolio.",
-    url: baseUrl,
+    url: BASE_URL,
     siteName: "Ludvig Bergström",
     locale: "en_US",
     type: "website",
