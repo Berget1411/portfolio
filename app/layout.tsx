@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
 import { baseUrl } from "@/app/sitemap";
@@ -67,6 +69,8 @@ export default async function LocaleLayout({
             <main className="mx-auto mt-8 max-w-[800px] px-6 pt-20">
               {children}
             </main>
+            <Analytics />
+            <SpeedInsights />
           </Providers>
         </NextIntlClientProvider>
       </body>
