@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ExperienceCard from "./ExperienceCard";
+import InfoCard from "../ui/InfoCard";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import atlasImage from "@/public/img/atlas.jpeg";
@@ -9,7 +9,7 @@ export default function Experience() {
   const t = useTranslations("experience");
   const ths = {
     title: t("ths.title"),
-    role: t("ths.role"),
+    undertitle: t("ths.undertitle"),
     date: t("ths.date"),
     desc1: t("ths.desc1"),
     desc2: t("ths.desc2"),
@@ -17,7 +17,7 @@ export default function Experience() {
   };
   const atlasCopco = {
     title: t("atlas-copco.title"),
-    role: t("atlas-copco.role"),
+    undertitle: t("atlas-copco.undertitle"),
     date: t("atlas-copco.date"),
     desc1: t("atlas-copco.desc1"),
     desc2: t("atlas-copco.desc2"),
@@ -28,9 +28,9 @@ export default function Experience() {
     <section className="mb-12" id="experience">
       <h2 className="text-2xl font-bold">{t("title")}</h2>
       <Card className="mt-4 flex flex-col gap-6 p-7">
-        <ExperienceCard {...ths} />
+        <InfoCard {...ths} />
         <Separator />
-        <ExperienceCard {...atlasCopco} />
+        <InfoCard {...atlasCopco} />
       </Card>
     </section>
   );

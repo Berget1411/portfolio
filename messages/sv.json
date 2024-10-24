@@ -40,5 +40,29 @@
       "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
       "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
     }
+  },
+  "education": {
+    "title": "Utbildning",
+    "kth": {
+      "title": "KTH Royal Institute of Technology",
+      "undertitle": "Civilingenjör, industriell ekonomi",
+      "date": "2024 - 2029",
+      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    },
+    "odin": {
+      "title": "The Odin Project",
+      "undertitle": "Full Stack Course",
+      "date": "Jul 2023 - Jun 2024",
+      "desc1": "En webbkurs för att lära sig modern webbutveckling.",
+      "desc2": "Jag lärde mig fullstack-utveckling med teknologier som JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
+    },
+    "ng": {
+      "title": "Nacka Gymnasium",
+      "undertitle": "Gymnasieexamen, Naturvetenskapsprogrammet",
+      "date": "2020 - 2023",
+      "desc1": "Betyg 22.29 / 22.50",
+      "desc2": "Specialisering inom matematik, biomedicin, franska och webbutveckling"
+    }
   }
 }

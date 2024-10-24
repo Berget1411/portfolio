@@ -2,14 +2,14 @@ import Image, { StaticImageData } from "next/image";
 
 export default function ExperienceCard({
   title,
-  role,
+  undertitle,
   date,
   desc1,
   desc2,
   image,
 }: {
   title: string;
-  role: string;
+  undertitle: string;
   date: string;
   desc1: string;
   desc2: string;
@@ -30,7 +30,7 @@ export default function ExperienceCard({
       <div>
         <div className="flex flex-col gap-1">
           <h3 className="m-0 text-lg font-bold">{title}</h3>
-          <p className="m-0 text-sm">{role}</p>
+          <p className="m-0 text-sm">{undertitle}</p>
           <p className="m-0 mb-3 text-sm opacity-70">{date}</p>
         </div>
         <ul className="list-style-none ml-4 max-w-[600px] list-disc text-sm">

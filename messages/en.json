@@ -28,17 +28,41 @@
     "title": "Experience",
     "ths": {
       "title": "THS Business",
-      "role": "Frontend Lead & Fullstack Developer",
+      "undertitle": "Frontend Lead & Fullstack Developer",
       "date": "Oct 2024 - Present",
       "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
       "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
     },
     "atlas-copco": {
       "title": "Atlas Copco",
-      "role": "Intern",
+      "undertitle": "Intern",
       "date": "Jul 2024 - Aug 2024",
       "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
       "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "kth": {
+      "title": "KTH Royal Institute of Technology",
+      "undertitle": "M.Sc. Industrial Engineering and Management",
+      "date": "2024 - 2029",
+      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    },
+    "odin": {
+      "title": "The Odin Project",
+      "undertitle": "Full Stack Course",
+      "date": "Jul 2023 - Jun 2024",
+      "desc1": "A free and open source curriculum for learning modern web development.",
+      "desc2": "I learned fullstack web development with technologies like JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
+    },
+    "ng": {
+      "title": "Nacka Gymnasium",
+      "undertitle": "High School Diploma, Natural Science Programme",
+      "date": "2020 - 2023",
+      "desc1": "Grade 22.29 / 22.50",
+      "desc2": "Specialization in maths, medicine, french and web development"
     }
   }
 }
