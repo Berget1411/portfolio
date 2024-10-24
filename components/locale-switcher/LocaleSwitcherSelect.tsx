@@ -38,7 +38,7 @@ export default function LocaleSwitcherSelect({
       onValueChange={onChange}
       value={defaultValue}
     >
-      <SelectTrigger>
+      <SelectTrigger disabled={isPending}>
         <SelectValue placeholder={label} />
       </SelectTrigger>
       <SelectContent>
