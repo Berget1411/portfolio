@@ -45,7 +45,7 @@ export default function Profile() {
           alt="Ludvig Bergtröm"
           width={160}
           height={160}
-          className="relative z-10 rounded-full"
+          className="z-1 relative rounded-full"
         />
       </div>
     </section>
