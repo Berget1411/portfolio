@@ -22,7 +22,7 @@ export default function Profile() {
               <Link
                 href="https://kth.se"
                 target="_blank"
-                className="font-bold transition-opacity hover:opacity-80"
+                className="font-bold text-primary transition-opacity hover:opacity-80"
               >
                 @KTH
               </Link>
@@ -32,7 +32,7 @@ export default function Profile() {
               <Link
                 href="https://thsbusiness.se"
                 target="_blank"
-                className="font-bold transition-opacity hover:opacity-80"
+                className="font-bold text-primary transition-opacity hover:opacity-80"
               >
                 @THS-Business
               </Link>
