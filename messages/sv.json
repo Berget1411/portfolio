@@ -82,5 +82,17 @@
   },
   "technologies": {
     "title": "Tekniker"
+  },
+  "contact": {
+    "title": "Kontakta mig",
+    "form": {
+      "name": "Namn",
+      "email": "Email",
+      "message": "Meddelande",
+      "send": "Skicka",
+      "placeholderName": "John Doe",
+      "placeholderEmail": "john.doe@example.com",
+      "placeholderMessage": "Hej, jag skulle vilja..."
+    }
   }
 }

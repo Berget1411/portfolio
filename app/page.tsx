@@ -5,7 +5,7 @@ import Education from "@/components/education";
 import Projects from "@/components/projects";
 import Technologies from "@/components/technologies";
 import { Separator } from "@/components/ui/separator";
-
+import Contact from "@/components/contact";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,8 @@ export default function Home() {
       <Education />
       <Projects />
       <Technologies />
+      <Separator className="mb-12 mt-24" />
+      <Contact />
     </>
   );
 }

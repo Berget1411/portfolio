@@ -82,5 +82,17 @@
   },
   "technologies": {
     "title": "Technologies"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "placeholderName": "John Doe",
+      "placeholderEmail": "john.doe@example.com",
+      "placeholderMessage": "Hello, I would like to..."
+    }
   }
 }
