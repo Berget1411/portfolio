@@ -1,23 +1,23 @@
 [
   {
     "id": "portfolio",
-    "image": "/img/portfolio.png",
+    "image": "portfolio.png",
     "github": "https://github.com/ludvigbergstrom/ludvigbergstrom.com",
     "demo": "https://ludvigbergstrom.com",
-    "tech": ["Next.js", "TailwindCSS", "i18n"]
+    "tech": ["Next.js", "TailwindCSS", "i18n"],
+    "devMode": false
   },
   {
-    "id": "knights-travail",
-    "image": "/img/knights-travail.png",
-    "github": "https://github.com/ludvigbergstrom/knights-travail",
-    "demo": "https://ludvigbergstrom.com/knights-travail",
-    "tech": ["JavaScript", "Data Structures & Algorithms"]
-  },
-  {
-    "id": "battle-ship",
-    "image": "/img/battle-ship.png",
-    "github": "https://github.com/ludvigbergstrom/battle-ship",
-    "demo": "https://ludvigbergstrom.com/battle-ship",
-    "tech": ["Python", "Pygame"]
+    "id": "e-commerce",
+    "image": "project_placeholder.jpeg",
+    "github": "https://github.com/Berget1411/e-commerce",
+    "tech": [
+      "Next.js",
+      "TailwindCSS",
+      "Stripe",
+      "Express",
+      "Drizzle (postgres)"
+    ],
+    "devMode": true
   }
 ]

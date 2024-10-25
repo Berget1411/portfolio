@@ -69,18 +69,15 @@
     "title": "Projects",
     "portfolio": {
       "title": "Portfolio",
-      "description": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
+      "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
+      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
       "date": "Oct, 2024"
     },
-    "knights-travail": {
-      "title": "Knights Travail",
-      "description": "A chess game made with javascript.",
-      "date": "Jun, 2023"
-    },
-    "battle-ship": {
-      "title": "Battle Ship",
-      "description": "A battleship game made with Python and Pygame.",
-      "date": "Jun, 2023"
+    "e-commerce": {
+      "title": "E-commerce",
+      "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
+      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "date": "Oct, 2024"
     }
   }
 }

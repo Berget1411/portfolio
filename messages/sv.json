@@ -64,5 +64,20 @@
       "desc1": "Betyg 22.29 / 22.50",
       "desc2": "Specialisering inom matematik, biomedicin, franska och webbutveckling"
     }
+  },
+  "projects": {
+    "title": "Projekt",
+    "portfolio": {
+      "title": "Portfolio",
+      "shortDescription": "Min hemsida som visar mina kunskaper, erfarenheter, teknologier och lite om mig.",
+      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "date": "Oktober, 2024"
+    },
+    "e-commerce": {
+      "title": "E-commerce",
+      "shortDescription": "En fullstack e-handelswebbplats med Stripe-betalningsintegration.",
+      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "date": "Oktober, 2024"
+    }
   }
 }
