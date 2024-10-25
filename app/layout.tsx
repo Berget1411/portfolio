@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
+import { TracingBeam } from "@/components/ui/TracingBeam";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -66,10 +67,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Navbar />
+            <TracingBeam className="mt-28">
+              <main className="mx-auto max-w-[800px] px-6">{children}</main>
+            </TracingBeam>
 
-            <main className="mx-auto mt-8 max-w-[800px] px-6 pt-20">
-              {children}
-            </main>
             <Analytics />
             <SpeedInsights />
           </Providers>
