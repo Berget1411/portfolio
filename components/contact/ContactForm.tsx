@@ -19,7 +19,7 @@ import { Input } from "@/components/ui/input";
 import { useTranslations } from "next-intl";
 import { sendMessage } from "@/actions/sendMessage";
 import { useState, useEffect } from "react";
-
+import { ToastAction } from "@/components/ui/toast";
 export default function ContactForm() {
   const t = useTranslations("contact.form");
   const form = useForm<z.infer<typeof contactFormSchema>>({
@@ -54,6 +54,7 @@ export default function ContactForm() {
         toast({
           title: "Success",
           description: result.success,
+          action: <ToastAction altText="Close">Close</ToastAction>,
         });
         // Debug: Log cookie after successful submission
         console.log("Cookies after submission:", document.cookie);
@@ -62,6 +63,7 @@ export default function ContactForm() {
           title: "Error",
           description: result.error,
           variant: "destructive",
+          action: <ToastAction altText="Close">Close</ToastAction>,
         });
       }
     } catch (error) {
@@ -69,6 +71,7 @@ export default function ContactForm() {
         title: "Error",
         description: `An unexpected error occurred: ${error}`,
         variant: "destructive",
+        action: <ToastAction altText="Close">Close</ToastAction>,
       });
     } finally {
       setIsSubmitting(false);
