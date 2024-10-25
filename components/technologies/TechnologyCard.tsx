@@ -1,6 +1,4 @@
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { IconType } from "react-icons";
-
 export default function TechnologyCard({
   icon: Icon,
   name,

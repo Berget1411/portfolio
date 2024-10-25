@@ -22,15 +22,15 @@ export function ThemeToggler() {
 
   if (!mounted)
     return (
-      <Button variant='ghost' size='icon' className='w-10 h-10 p-0'></Button>
+      <Button variant="ghost" size="icon" className="h-10 w-10 p-0"></Button>
     );
 
   return (
-    <Button onClick={toggleTheme} variant='ghost' size='icon'>
+    <Button onClick={toggleTheme} variant="ghost" size="icon">
       {theme === "dark" ? (
-        <IoSunnyOutline className='text-black dark:text-white ' />
+        <IoSunnyOutline className="text-black dark:text-white" />
       ) : (
-        <IoMoonOutline className='text-black dark:text-white' />
+        <IoMoonOutline className="text-black dark:text-white" />
       )}
     </Button>
   );

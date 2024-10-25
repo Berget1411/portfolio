@@ -67,7 +67,7 @@ export default function ContactForm() {
     } catch (error) {
       toast({
         title: "Error",
-        description: "An unexpected error occurred",
+        description: `An unexpected error occurred: ${error}`,
         variant: "destructive",
       });
     } finally {

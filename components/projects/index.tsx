@@ -29,7 +29,7 @@ export default function Projects() {
             ),
         )}
       </div>
-      {projects.find((project, index) => project.devMode) && (
+      {projects.find((project) => project.devMode) && (
         <Separator className="relative my-32">
           <span className="absolute left-[18%] top-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-2 text-xl font-bold">
             In development
