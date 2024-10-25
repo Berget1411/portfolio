@@ -16,7 +16,7 @@ export default function ExperienceCard({
   image: StaticImageData;
 }) {
   return (
-    <div className="flex items-start gap-8">
+    <div className="flex items-start gap-8 max-sm:flex-col">
       <div className="group relative h-[60px] w-[60px] flex-shrink-0">
         <div className="absolute -inset-0.5 animate-tilt bg-gradient-to-r from-orange-600 to-rose-600 opacity-75 blur-lg transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
         <Image
