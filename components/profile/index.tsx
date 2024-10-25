@@ -8,7 +8,10 @@ export default function Profile() {
   const t = useTranslations("profile");
   return (
     <div className="bg-grid-black/[0.03] dark:bg-grid-white/[0.03]">
-      <section className="flex items-center justify-between gap-6 py-4 max-[550px]:flex-col-reverse">
+      <section
+        className="flex items-center justify-between gap-6 py-4 max-[550px]:flex-col-reverse"
+        id="start"
+      >
         <div>
           <h1 className="mb-3">{t("title")}</h1>
           <div className="mb-6 flex gap-3">

@@ -18,7 +18,7 @@ export default function Navbar() {
   const NAVBAR_TABS = [
     {
       label: t("home"),
-      href: "/",
+      href: "start",
     },
     {
       label: t("about"),
@@ -35,6 +35,10 @@ export default function Navbar() {
     {
       label: t("projects"),
       href: "projects",
+    },
+    {
+      label: t("technologies"),
+      href: "technologies",
     },
   ];
 
@@ -104,7 +108,9 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <LocaleSwitcher />
-            <Button size="sm">{t("contact")} </Button>
+            <Button size="sm" onClick={() => scrollToSection("contact")}>
+              {t("contact")}
+            </Button>
             <div>
               <ThemeToggler />
             </div>

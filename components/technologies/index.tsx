@@ -33,7 +33,10 @@ const technologies = [
 export default function Technologies() {
   const t = useTranslations("technologies");
   return (
-    <section className="bg-grid-black/[0.03] dark:bg-grid-white/[0.03] relative z-10 mt-24 py-12">
+    <section
+      className="bg-grid-black/[0.03] dark:bg-grid-white/[0.03] relative z-10 mt-24 py-12"
+      id="technologies"
+    >
       <h2 className="mb-12 text-2xl font-bold">{t("title")}</h2>
 
       <div className="mx-auto grid max-w-[800px] grid-cols-4 gap-8 gap-y-12 px-4 max-sm:grid-cols-3">

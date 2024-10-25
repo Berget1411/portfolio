@@ -7,7 +7,7 @@ import { Separator } from "@/components/ui/separator";
 export default function Projects() {
   const t = useTranslations("projects");
   return (
-    <div>
+    <section id="projects">
       <h2 className="text-2xl font-bold">{t("title")}</h2>
       <div className="mb-24 mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {projects.map((project) => (
@@ -48,6 +48,6 @@ export default function Projects() {
             ),
         )}
       </div>
-    </div>
+    </section>
   );
 }
