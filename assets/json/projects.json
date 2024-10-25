@@ -1,0 +1,23 @@
+[
+  {
+    "id": "portfolio",
+    "image": "/img/portfolio.png",
+    "github": "https://github.com/ludvigbergstrom/ludvigbergstrom.com",
+    "demo": "https://ludvigbergstrom.com",
+    "tech": ["Next.js", "TailwindCSS", "i18n"]
+  },
+  {
+    "id": "knights-travail",
+    "image": "/img/knights-travail.png",
+    "github": "https://github.com/ludvigbergstrom/knights-travail",
+    "demo": "https://ludvigbergstrom.com/knights-travail",
+    "tech": ["JavaScript", "Data Structures & Algorithms"]
+  },
+  {
+    "id": "battle-ship",
+    "image": "/img/battle-ship.png",
+    "github": "https://github.com/ludvigbergstrom/battle-ship",
+    "demo": "https://ludvigbergstrom.com/battle-ship",
+    "tech": ["Python", "Pygame"]
+  }
+]

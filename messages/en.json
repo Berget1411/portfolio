@@ -64,5 +64,23 @@
       "desc1": "Grade 22.29 / 22.50",
       "desc2": "Specialization in maths, medicine, french and web development"
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
+      "date": "Oct, 2024"
+    },
+    "knights-travail": {
+      "title": "Knights Travail",
+      "description": "A chess game made with javascript.",
+      "date": "Jun, 2023"
+    },
+    "battle-ship": {
+      "title": "Battle Ship",
+      "description": "A battleship game made with Python and Pygame.",
+      "date": "Jun, 2023"
+    }
   }
 }
