@@ -33,7 +33,7 @@ export default function ExperienceCard({
           <p className="m-0 text-sm">{undertitle}</p>
           <p className="m-0 mb-3 text-sm opacity-70">{date}</p>
         </div>
-        <ul className="list-style-none ml-4 max-w-[600px] list-disc text-sm">
+        <ul className="list-style-none ml-4 flex max-w-[600px] list-disc flex-col gap-2 text-sm">
           <li>{desc1}</li>
           <li>{desc2}</li>
         </ul>
