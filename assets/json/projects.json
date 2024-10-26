@@ -1,7 +1,7 @@
 [
   {
     "id": "portfolio",
-    "image": "portfolio.jpeg",
+    "image": "portfolio_screenshot.jpeg",
     "github": "https://github.com/ludvigbergstrom/ludvigbergstrom.com",
     "demo": "https://ludvigbergstrom.com",
     "tech": ["Next.js", "TailwindCSS", "i18n"],
