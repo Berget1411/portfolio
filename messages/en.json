@@ -31,15 +31,15 @@
       "title": "THS Business",
       "undertitle": "Frontend Lead & Fullstack Developer",
       "date": "Oct 2024 - Present",
-      "desc1": "Focusing on frontend development but also doing fullstack development.",
+      "desc1": "Focusing on frontend development but also doing fullstack.",
       "desc2": "Developing a platform for KTH students to connect with future employers."
     },
     "atlas-copco": {
       "title": "Atlas Copco",
       "undertitle": "Intern",
       "date": "Jul 2024 - Aug 2024",
-      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+      "desc1": "Developed the front end of a joint management application using technologies such as React, TypeScript, Vite, BulmaCSS and Docker.",
+      "desc2": "Contributed to project documentation and successfully assisted in the project handover to a colleague for continued development."
     }
   },
   "education": {
@@ -48,14 +48,14 @@
       "title": "KTH Royal Institute of Technology",
       "undertitle": "M.Sc. Industrial Engineering and Management",
       "date": "2024 - 2029",
-      "desc1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-      "desc2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+      "desc1": "One of Europe's leading technical universities, ranked 95th in the world.",
+      "desc2": "300 ECTS of courses in Mathematics, Computer Science and Industrial Economics and Management."
     },
     "odin": {
       "title": "The Odin Project",
       "undertitle": "Full Stack Course",
       "date": "Jul 2023 - Jun 2024",
-      "desc1": "A free and open source curriculum for learning modern web development.",
+      "desc1": "A free and open source curriculum for learning modern web development that I took during my gap year.",
       "desc2": "I learned fullstack web development with technologies like JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
     },
     "ng": {
@@ -71,13 +71,13 @@
     "portfolio": {
       "title": "Portfolio",
       "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
-      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "longDescription": "A website that I built to display my knowledge, experiences, tech-stack and a little about me. Examples of technologies used are Next.js and Typescript for frontend, Tailwind CSS for styling and i18n for language support.",
       "date": "Oct, 2024"
     },
     "e-commerce": {
       "title": "E-commerce",
       "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
-      "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Shadcn UI, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
       "date": "Oct, 2024"
     }
   },
