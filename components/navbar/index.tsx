@@ -72,7 +72,7 @@ export default function Navbar() {
     <>
       <motion.header
         className={twMerge(
-          "fixed top-0 z-20 flex w-full items-center justify-center backdrop-blur-md",
+          "sticky top-0 z-20 flex w-full items-center justify-center backdrop-blur-md",
         )}
         variants={{
           visible: { y: 0 },
@@ -106,7 +106,7 @@ export default function Navbar() {
             {menuOpen ? <IoMdClose size={32} /> : <HiMenuAlt4 size={32} />}
           </Button>
 
-          <div className="flex items-center gap-4">
+          <div className="relative flex items-center gap-4">
             <LocaleSwitcher />
             <Button size="sm" onClick={() => scrollToSection("contact")}>
               {t("contact")}
