@@ -39,7 +39,7 @@
       "undertitle": "Intern",
       "date": "Jul 2024 - Aug 2024",
       "desc1": "Developed the front end of a joint management application using technologies such as React, TypeScript, Vite, BulmaCSS and Docker.",
-      "desc2": "Contributed to project documentation and successfully assisted in the project handover to a colleague for continued development."
+      "desc2": "I also contributed to project documentation and successfully assisted in the project handover to a colleague for continued development."
     }
   },
   "education": {
@@ -55,7 +55,7 @@
       "title": "The Odin Project",
       "undertitle": "Full Stack Course",
       "date": "Jul 2023 - Jun 2024",
-      "desc1": "A free and open source curriculum for learning modern web development that I took during my gap year.",
+      "desc1": "During my gap year I took an open source curriculum for learning modern web development.",
       "desc2": "I learned fullstack web development with technologies like JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
     },
     "ng": {

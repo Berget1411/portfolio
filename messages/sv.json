@@ -23,7 +23,7 @@
   },
   "about": {
     "title": "Introduktion",
-    "body": "Hej, jag är Ludvig. Jag är en självlärd programmerare som går första året på civilingenjörprogrammet i industriell ekonomi vid KTH. Vid sidan av mina studier arbetar jag som webbutvecklare på THS Business, vars mål är att hjälpa KTH-studenter att knyta kontakter med framtida arbetsgivare. För närvarande fördjupar jag mig inom fullstack-utveckling och använder AI-verktyg som Cursor och ChatGPT."
+    "body": "Hej, jag är Ludvig. Jag går första året på civilingenjörprogrammet i industriell ekonomi vid KTH och är en självlärd programmerare. Vid sidan av mina studier arbetar jag som webbutvecklare på THS Business, vars mål är att hjälpa KTH-studenter att knyta kontakter med framtida arbetsgivare. För närvarande fördjupar jag mig inom fullstack-utveckling och använder AI-verktyg som Cursor och ChatGPT."
   },
   "experience": {
     "title": "Erfarenhet",
@@ -36,10 +36,10 @@
     },
     "atlas-copco": {
       "title": "Atlas Copco",
-      "role": "Intern",
+      "role": "Praktik",
       "date": "Jul 2024 - Aug 2024",
-      "desc1": "Utvecklade frontenden för en gemensam åtdragsapplikation med teknologier som React, TypeScript, Vite, BulmaCSS och Docker.",
-      "desc2": "Bidrog till dokumentationen och lyckades hjälpa till med projektöverlämningen till en kollega för fortsatt utveckling."
+      "desc1": "Utvecklade frontenden för en åtdragsapplikation med teknikerna React, TypeScript, Vite, BulmaCSS och Docker.",
+      "desc2": "Jag skrev även dokumentation och hjälpte till med projektöverlämningen till en kollega för fortsatt utveckling."
     }
   },
   "education": {
@@ -49,14 +49,14 @@
       "undertitle": "Civilingenjör, industriell ekonomi",
       "date": "2024 - 2029",
       "desc1": "Ett av Europas ledande tekniska universitet, 95:e i världsrankingen.",
-      "desc2": "300 ECTS of courses in Mathematics, Computer Science and Industrial Economics and Management."
+      "desc2": "300 HP inom matematik, datavetenskap och industriell ekonomi."
     },
     "odin": {
       "title": "The Odin Project",
       "undertitle": "Full Stack Course",
       "date": "Jul 2023 - Jun 2024",
-      "desc1": "En webbkurs för att lära sig modern webbutveckling som jag gick under mitt sabbatår.",
-      "desc2": "Jag lärde mig fullstack-utveckling med teknologier som JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
+      "desc1": "En webbkurs jag gick under mitt sabbatår för att lära mig allt om modern webbutveckling.",
+      "desc2": "Jag lärde mig fullstack-utveckling med tekniker som JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
     },
     "ng": {
       "title": "Nacka Gymnasium",
@@ -71,7 +71,7 @@
     "portfolio": {
       "title": "Portfolio",
       "shortDescription": "Min hemsida som visar mina kunskaper, erfarenheter, tekniker och lite om mig.",
-      "longDescription": "En webbplats som jag har byggt för att visa mina kunskaper, erfarenheter, tekniker och lite om mig. Exempel på tekniker som används är Next.js och Typescript för frontend, Tailwind CSS för styling och i18n för språkstöd.",
+      "longDescription": "En webbplats som jag har byggt för att visa mina kunskaper, erfarenheter, tekniker och lite om mig. Exempel på tekniker som används är Next.js och Typescript för frontend, Tailwind CSS för styling och i18n för stöd för fler språk.",
       "date": "Oktober, 2024"
     },
     "e-commerce": {
