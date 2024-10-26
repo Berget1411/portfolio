@@ -77,7 +77,7 @@
     "e-commerce": {
       "title": "E-commerce",
       "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
-      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Shadcn UI, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
+      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
       "date": "Oct, 2024"
     }
   },
