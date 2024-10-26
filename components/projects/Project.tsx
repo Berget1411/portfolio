@@ -67,7 +67,7 @@ export default function Project({
           </TooltipProvider>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative h-[300px] w-[400px]">
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
           <DialogTrigger asChild>
             <motion.div
@@ -78,9 +78,9 @@ export default function Project({
               <Image
                 src={`/img/projects/${image}`}
                 alt={title}
-                width={200}
-                height={200}
-                className="h-full w-full rounded-[0.5rem] border border-border object-cover max-md:h-full max-md:w-full"
+                width={400}
+                height={300}
+                className="h-[300px] w-[400px] rounded-[0.5rem] border border-border object-cover"
               />
             </motion.div>
           </DialogTrigger>
