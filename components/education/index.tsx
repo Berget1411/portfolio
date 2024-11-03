@@ -1,3 +1,5 @@
+"use client";
+
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import InfoCard from "../ui/InfoCard";
@@ -5,6 +7,7 @@ import { useTranslations } from "next-intl";
 import kthImage from "@/public/img/kth.jpeg";
 import odinImage from "@/public/img/odin.png";
 import ngImage from "@/public/img/ng.png";
+import { motion } from "framer-motion";
 
 export default function Education() {
   const t = useTranslations("education");
@@ -34,14 +37,29 @@ export default function Education() {
   };
   return (
     <section className="mb-12" id="education">
-      <h2 className="text-2xl font-bold">{t("title")}</h2>
-      <Card className="mt-4 flex flex-col gap-6 p-7">
-        <InfoCard {...kth} />
-        <Separator />
-        <InfoCard {...odin} />
-        <Separator />
-        <InfoCard {...ng} />
-      </Card>
+      <motion.h2
+        className="text-2xl font-bold"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        {t("title")}
+      </motion.h2>
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+      >
+        <Card className="mt-4 flex flex-col gap-6 p-7">
+          <InfoCard {...kth} />
+          <Separator />
+          <InfoCard {...odin} />
+          <Separator />
+          <InfoCard {...ng} />
+        </Card>
+      </motion.div>
     </section>
   );
 }

@@ -20,6 +20,7 @@ import { useTranslations } from "next-intl";
 import { sendMessage } from "@/actions/sendMessage";
 import { useState, useEffect } from "react";
 import { ToastAction } from "@/components/ui/toast";
+import { motion } from "framer-motion";
 export default function ContactForm() {
   const t = useTranslations("contact.form");
   const form = useForm<z.infer<typeof contactFormSchema>>({
@@ -81,7 +82,11 @@ export default function ContactForm() {
   return (
     <>
       <Form {...form}>
-        <form
+        <motion.form
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
           onSubmit={form.handleSubmit(onSubmit)}
           className="mx-auto max-w-[600px] space-y-6 rounded-lg border border-border p-4"
         >
@@ -129,7 +134,7 @@ export default function ContactForm() {
           <Button type="submit" className="w-full" disabled={isSubmitting}>
             {isSubmitting ? "Sending..." : t("send")}
           </Button>
-        </form>
+        </motion.form>
       </Form>
     </>
   );

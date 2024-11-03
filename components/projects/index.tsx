@@ -1,53 +1,25 @@
-import ProjectCard from "@/components/projects/ProjectCard";
-import projects from "@/assets/json/projects.json";
-import Project from "@/components/projects/Project";
+"use client";
+import ProjectSummary from "@/components/projects/projectSummary";
+import ProjectSection from "@/components/projects/ProjectSection";
 import { useTranslations } from "next-intl";
-import { Separator } from "@/components/ui/separator";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const t = useTranslations("projects");
+
   return (
     <section id="projects">
-      <h2 className="text-2xl font-bold">{t("title")}</h2>
-      <div className="mb-24 mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} {...project} />
-        ))}
-      </div>
-      <div className="flex flex-col gap-24">
-        {projects.map(
-          (project, index) =>
-            !project.devMode && (
-              <>
-                <Project
-                  key={project.id}
-                  {...project}
-                  reverse={index % 2 !== 0}
-                />
-                {index !== projects.length - 1 && index !== 0 && <Separator />}
-              </>
-            ),
-        )}
-      </div>
-      {projects.find((project) => project.devMode) && (
-        <Separator className="relative mb-16 mt-32 max-sm:mb-10 max-sm:mt-20">
-          <span className="absolute left-[18%] top-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-2 text-xl font-bold text-primary max-sm:left-[25%] max-sm:text-lg">
-            In development
-          </span>
-        </Separator>
-      )}
-      <div className="flex flex-col gap-24 max-sm:gap-12">
-        {projects.map(
-          (project, index) =>
-            project.devMode && (
-              <Project
-                key={project.id}
-                {...project}
-                reverse={index % 2 !== 0}
-              />
-            ),
-        )}
-      </div>
+      <motion.h2
+        className="text-2xl font-bold"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        {t("title")}
+      </motion.h2>
+      <ProjectSummary />
+      <ProjectSection />
     </section>
   );
 }

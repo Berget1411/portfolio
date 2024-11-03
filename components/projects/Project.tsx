@@ -42,32 +42,68 @@ export default function Project({
       )}
     >
       <div>
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="mb-6 w-[360px] max-md:w-full">{longDescription}</p>
+        <motion.h3
+          className="text-2xl font-bold"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          {title}
+        </motion.h3>
+        <motion.p
+          className="mb-6 w-[360px] max-md:w-full"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          {longDescription}
+        </motion.p>
         <div className="flex items-center gap-4">
           {demo ? (
-            <Link href={demo} target="_blank">
-              <Button>Try it out</Button>
-            </Link>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+            >
+              <Link href={demo} target="_blank">
+                <Button>Try it out</Button>
+              </Link>
+            </motion.div>
           ) : (
             <Button disabled>Try it out</Button>
           )}
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Link href={github} target="_blank">
-                  <FaGithub
-                    size={18}
-                    className="transition-opacity hover:opacity-70"
-                  />
-                </Link>
-              </TooltipTrigger>
-              <TooltipContent>View code</TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Link href={github} target="_blank">
+                    <FaGithub
+                      size={18}
+                      className="transition-opacity hover:opacity-70"
+                    />
+                  </Link>
+                </TooltipTrigger>
+                <TooltipContent>View code</TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </motion.div>
         </div>
       </div>
-      <div className="relative w-full">
+      <motion.div
+        className="relative w-full"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+      >
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
           <DialogTrigger asChild>
             <motion.div
@@ -105,7 +141,7 @@ export default function Project({
             )}
           </AnimatePresence>
         </Dialog>
-      </div>
+      </motion.div>
     </div>
   );
 }

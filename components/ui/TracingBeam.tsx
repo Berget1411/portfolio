@@ -45,7 +45,12 @@ export const TracingBeam = ({
       ref={ref}
       className={cn("relative mx-auto h-full w-full max-w-4xl", className)}
     >
-      <div className="absolute -left-4 top-3 md:-left-20">
+      <motion.div
+        className="absolute -left-4 top-3 md:-left-20"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+      >
         <motion.div
           transition={{
             duration: 0.2,
@@ -115,7 +120,7 @@ export const TracingBeam = ({
             </motion.linearGradient>
           </defs>
         </svg>
-      </div>
+      </motion.div>
       <div ref={contentRef}>{children}</div>
     </motion.div>
   );
