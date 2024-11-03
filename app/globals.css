@@ -101,7 +101,6 @@ h6 {
 
 body {
   color: var(--text-color);
-  background: var(--background);
 }
 
 @layer base {

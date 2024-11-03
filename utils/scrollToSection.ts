@@ -1,6 +1,6 @@
 export default function scrollToSection(
   sectionId: string,
-  offsetTop: number = 0,
+  offsetTop: number = -800,
 ) {
   const section = document.getElementById(sectionId);
   if (section) {

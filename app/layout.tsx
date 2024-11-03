@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
-import { TracingBeam } from "@/components/ui/TracingBeam";
+
 import { Toaster } from "@/components/ui/toaster";
 
 const geistSans = localFont({
@@ -63,15 +63,14 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} relative antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Navbar />
-            <TracingBeam className="mt-28">
-              <main className="mx-auto max-w-[800px] px-6">{children}</main>
-              <Toaster />
-            </TracingBeam>
+
+            <main className="mx-auto max-w-[800px] px-6">{children}</main>
+            <Toaster />
 
             <Analytics />
             <SpeedInsights />
