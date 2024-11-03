@@ -29,14 +29,14 @@
     "title": "Erfarenhet",
     "ths": {
       "title": "THS Business",
-      "role": "Frontend Lead & Fullstack Developer",
+      "undertitle": "Frontend Lead & Fullstack Developer",
       "date": "Okt 2024 - Nu",
       "desc1": "Frontendutveckling men också fullstack.",
       "desc2": "Utvecklar en plattform för KTH-studenter att knyta kontakter med framtida arbetsgivare."
     },
     "atlas-copco": {
       "title": "Atlas Copco",
-      "role": "Praktik",
+      "undertitle": "Praktik",
       "date": "Jul 2024 - Aug 2024",
       "desc1": "Utvecklade frontenden för en åtdragsapplikation med teknikerna React, TypeScript, Vite, BulmaCSS och Docker.",
       "desc2": "Jag skrev även dokumentation och hjälpte till med projektöverlämningen till en kollega för fortsatt utveckling."
