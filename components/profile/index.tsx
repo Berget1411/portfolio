@@ -1,8 +1,11 @@
+"use client";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import profile from "@/public/img/profile.png";
 import { useTranslations } from "next-intl";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Profile() {
   const t = useTranslations("profile");
@@ -13,7 +16,12 @@ export default function Profile() {
         id="start"
       >
         <div>
-          <h1 className="mb-3">{t("title")}</h1>
+          <TypeAnimation
+            sequence={[t("title")]}
+            speed={50}
+            omitDeletionAnimation={false}
+            className="mb-3 text-3xl font-medium tracking-tight"
+          />
           <div className="mb-6 flex gap-3">
             <FaGithub size={20} />
             <FaLinkedin size={20} />
