@@ -1,5 +1,5 @@
 "use client";
-import ProjectSummary from "@/components/projects/projectSummary";
+import ProjectSummary from "@/components/projects/ProjectSummary";
 import ProjectSection from "@/components/projects/ProjectSection";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
