@@ -69,7 +69,7 @@ export default async function LocaleLayout({
           <Providers>
             <Navbar />
 
-            <main className="mx-auto max-w-[800px] px-6">{children}</main>
+            <main>{children}</main>
             <Toaster />
 
             <Analytics />

@@ -11,9 +11,11 @@ import { TracingBeam } from "@/components/ui/TracingBeam";
 export default function Home() {
   return (
     <>
-      <Profile />
+      <div className="mx-auto max-w-[800px] px-6">
+        <Profile />
+      </div>
 
-      <TracingBeam>
+      <TracingBeam className="mx-auto max-w-[800px] px-6">
         <Separator className="mb-12 mt-6" />
         <About />
         <Experience />
